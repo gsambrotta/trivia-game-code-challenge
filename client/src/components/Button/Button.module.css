@@ -1,0 +1,54 @@
+.button {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px;
+  background: var(--brandColor);
+  max-width: 100px;
+  padding: 10px 0px;
+  text-shadow: none;
+  margin: 0 auto;
+  margin-top: 25%;
+}
+
+.button a {
+  color: #ffffffe8;
+}
+
+.button:hover {
+  background: var(--brandColorDarker);
+}
+
+.button:hover a {
+  color: white;
+}
+
+.outline {
+  background: white;
+  border: 1px solid;
+}
+
+.false {
+  border-color: var(--falseTheme);
+  color: var(--falseTheme);
+}
+.false a {
+  color: var(--falseTheme);
+}
+.false:hover {
+  background: var(--falseTheme);
+  color: white;
+}
+
+.true {
+  color: var(--trueTheme);
+  border-color: var(--trueTheme);
+}
+.true a {
+  color: var(--trueTheme);
+}
+.true:hover {
+  color: white;
+  background: var(--trueTheme);
+}

@@ -1,0 +1,28 @@
+{
+  "name": "trivia-game-server",
+  "version": "1.0.0",
+  "description": "Backend of Trivia Game Challenge",
+  "repository": "git@github.com:gsambrotta/trvia-game-code-challenge.git/server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "restapi"
+  ],
+  "author": "gsambrotta",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/joi": "^17.1.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "underscore": "^1.10.2"
+  }
+}

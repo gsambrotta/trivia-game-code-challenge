@@ -1,0 +1,23 @@
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  vertical-align: baseline;
+  margin: 0 0.25em 0 0;
+  min-width: 200px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.left :global(div) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+.right :global(div) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

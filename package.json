@@ -1,0 +1,19 @@
+{
+  "name": "triviagamecodechallenge",
+  "version": "1.0.0",
+  "description": "Simple Trivia Game build with React, Nodejs and Mongo",
+  "repository": "git@github.com:gsambrotta/trvia-game-code-challenge.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "challenge",
+    "react",
+    "node",
+    "mongo"
+  ],
+  "author": "gsmbrotta",
+  "license": "ISC"
+}

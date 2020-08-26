@@ -1,0 +1,15 @@
+.question {
+  border: 1px solid grey;
+  padding: 20px;
+  max-width: 250px;
+  margin: 40px auto 20px;
+  box-shadow: 1px 1px 4px 1px #a2a1a96b;
+  font-size: 16px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  display: block;
+}

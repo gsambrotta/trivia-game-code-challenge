@@ -1,0 +1,49 @@
+.score {
+  margin-top: -30px;
+}
+
+.list {
+  list-style: none;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.listItem {
+  padding: 10px 0;
+  display: flex;
+}
+
+.listItem p {
+  margin: 0;
+}
+
+.listItemRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.symbol {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--falseTheme);
+}
+
+.isCorrect {
+  color: var(--trueTheme);
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-left: 6px;
+  background-color: #7a6e79;
+  border: 0;
+  color: white;
+  padding: 3px 6px;
+  display: inline-block;
+}

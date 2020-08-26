@@ -1,0 +1,9 @@
+.main {
+  background: var(--brandColor);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  min-height: 100%;
+}
