@@ -2,7 +2,7 @@
   "name": "trivia-game-client",
   "version": "0.1.0",
   "description": "Frontend of Trivia Game Challenge",
-  "repository": "git@github.com:gsambrotta/trvia-game-code-challenge.git/client",
+  "repository": "git@github.com:gsambrotta/trivia-game-code-challenge.git/client",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

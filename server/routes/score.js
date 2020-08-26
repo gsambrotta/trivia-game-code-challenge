@@ -1,9 +1,9 @@
 'use strict'
 
 /* DISCLAIMER! */
-// This code doesn't verify a uniqueness of a username.
-// Therefor multiple users can use the same username and overwrite other user scores.
-// This is obviously not ideal but is just for the sake of implementing Restful API
+// This code doesn't bind user to his/her username.
+// Therefore multiple users can use the same username and overwrite other user scores.
+// This is obviously not good functionality but is just for the sake of implementing Restful API
 
 const mongoose = require('mongoose')
 const Boom = require('@hapi/boom')
@@ -44,6 +44,7 @@ module.exports = (function () {
           }
         )
 
+        // if no user is found in the db, create one.
         if (!score) {
           const score = new Score()
           score.username = req.payload.username

@@ -1,6 +1,6 @@
 /* 
   Very simple custom hook to manage state globally. 
-  Implementation based on npm package: use-global-hook
+  Implementation based on npm package 'use-global-hook' code
   https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8
 */
 

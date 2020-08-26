@@ -48,7 +48,6 @@ function ResultsListCard() {
       })
 
       const response = await res
-
       if (response.ok) {
         setIsLoading(false)
         setUsername('')

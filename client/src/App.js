@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, BrowserRouter } from 'react-router-dom'
-import WelcomeCard from './components/WelcomeCard/WelcomeCard'
+import WelcomeCard from './components/WelcomeCard'
 import QuestionCard from './components/QuestionCard/QuestionCard'
 import ResultsListCard from './components/ResultsListCard/ResultsListCard'
 import styles from './App.module.css'

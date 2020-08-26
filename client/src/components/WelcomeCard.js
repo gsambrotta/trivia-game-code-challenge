@@ -1,6 +1,5 @@
 import React from 'react'
-import Card from '../Card/Card'
-import styles from './WelcomeCard.module.css'
+import Card from './Card/Card'
 
 function WelcomeCard() {
   return (
@@ -9,7 +8,9 @@ function WelcomeCard() {
       buttonLabel='Begin'
       buttonLink='/questions'>
       <p>You will be presented with 10 True or False questions.</p>
-      <p className={styles.bold}>Can you score 100%?</p>
+      <p>
+        <strong>Can you score 100%?</strong>
+      </p>
     </Card>
   )
 }

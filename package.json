@@ -1,8 +1,8 @@
 {
-  "name": "triviagamecodechallenge",
+  "name": "trivia-game-code-challenge",
   "version": "1.0.0",
   "description": "Simple Trivia Game build with React, Nodejs and Mongo",
-  "repository": "git@github.com:gsambrotta/trvia-game-code-challenge.git",
+  "repository": "git@github.com:gsambrotta/trivia-game-code-challenge.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
