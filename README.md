@@ -1,4 +1,4 @@
-# trvia-game-code-challenge
+# Trivia Game
 
 Simple Trivia Game to show my current Frontend and Backend Code Skills
 
