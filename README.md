@@ -27,6 +27,12 @@ Once this is done, backend can be run in this way.
 2. `npm i`
 3. `npm start`
 
+![Screen Shot 2020-08-25 at 17 25 27](https://user-images.githubusercontent.com/1055531/91278750-e6acb900-e784-11ea-8f84-5b5d039c8b7a.png)
+![Screen Shot 2020-08-25 at 17 25 33](https://user-images.githubusercontent.com/1055531/91278823-ff1cd380-e784-11ea-9e1d-0988782b08d1.png)
+![localhost_3000_](https://user-images.githubusercontent.com/1055531/91278832-02b05a80-e785-11ea-800a-f975660065d4.png)
+![Screen Shot 2020-08-25 at 17 25 18](https://user-images.githubusercontent.com/1055531/91278844-0643e180-e785-11ea-8442-ef45b4dc8ec4.png)
+
+
 ### Routes
 
 The application has 3 public routes:
