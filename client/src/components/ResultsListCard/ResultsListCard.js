@@ -19,17 +19,16 @@ function ResultsListCard() {
           method: 'GET',
         })
         const json = await res.json()
-
         if (json.error) {
           console.log('err scores cannot be loaded', json.error)
           return
         } else {
-          setIsLoading(false)
           return setGlobalState({ scores: json })
         }
       } catch (err) {
         console.error(err)
       }
+      setIsLoading(false)
     }
 
     fetchScores()
@@ -91,7 +90,7 @@ function ResultsListCard() {
               ))}
           </ul>
 
-          {!showScores && (
+          {!showScores && globalState.scores.length !== 0 && (
             <form onSubmit={() => onSubmit(username, globalState.totalScore)}>
               <label className={styles.label}>Save your score!</label>
               <input
