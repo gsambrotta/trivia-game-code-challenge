@@ -5,7 +5,9 @@ Simple Trivia Game to show my current Frontend and Backend Code Skills
 ## Requisite
 
 `npm`
+
 `node`
+
 `mongodb` for backend part
 
 ## Start
