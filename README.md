@@ -36,12 +36,17 @@ Once this is done, backend can be run in this way.
 ### Routes
 
 The application has 3 public routes:
+
 `/` - Welcome page
+
 `/questions` - Trivia Game Questions
+
 `/results` - Result page
 
 The API routes are:
+
 GET `/api/scores` - return a list of all saved usernames and scores
+
 PUT `/api/score` - save or update a score for a certain user in the db.
 
 ### Notes
